@@ -4,11 +4,11 @@ function App() {
   return (
     <div className="App">
         <article>
-            <header>
-                <h4>The Statue of Liberty's torch heads to new museum</h4>
-                <p>by Kate Farley (<a href="mailto:kate.farley@nytimes.com">kate.farley@nytimes.com</a>)</p>
-                <time dateTime="2018-11-22">November 22, 2018</time>
-            </header>
+          <header>
+            <h4>The Statue of Liberty's torch heads to new museum</h4>
+            <p>by Kate Farley (<a href="mailto:kate.farley@nytimes.com">kate.farley@nytimes.com</a>)</p>
+            <time dateTime="2018-11-22">November 22, 2018</time>
+          </header>
 
           <p>The Statue of Liberty's original torch is getting a new home.</p>
 
