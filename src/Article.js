@@ -5,7 +5,7 @@ const Article = ({title, shortText, pubDate, pubYear, author}) => (
     <article>
         <header>
             <h1>{title}</h1>
-            <p>By: {author}</p>
+            <p><i>By: {author}</i></p>
             <time dateTime='2018-11-21 22:57:55'>{pubDate}</time>
         </header>
         <section>
