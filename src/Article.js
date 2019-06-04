@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Article = ({title, shortText, pubDate, author}) => (
+const Article = ({title, shortText, pubDate, pubYear, author}) => (
     <article>
         <header>
             <h1>{title}</h1>
