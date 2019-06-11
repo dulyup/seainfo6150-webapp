@@ -1,0 +1,27 @@
+.articleListItem {
+    list-style: none;
+    background: #f3f3f3;
+    margin-bottom: 50px;
+    padding: 20px;
+    border: 2px solid #d40000;
+}
+
+.articleTitle {
+    font-size: 30px;
+    font-weight: bold;
+    color: #d40000;
+    margin-top: 0;
+}
+
+section, footer {
+    font-size: 20px;
+    color: #4b4b4b;
+}
+
+.authorTime {
+    text-align: right;
+}
+
+.time {
+    font-weight: bold;
+}
