@@ -16,14 +16,15 @@ const ArticleList = ({articles}) => {
                     pubDate={article.pubDate}
                     pubYear={article.pubYear}
                     author={article.author}
-                    shortText={article.shortText}/>;
+                    shortText={article.shortText}
+                    url={article.image._url}/>;
             })
         }
     </ul>
 };
 
 ArticleList.propTypes = {
-    articles: PropTypes.array.isRequired
+    articles: PropTypes.object.isRequired
 };
 
 export default ArticleList;

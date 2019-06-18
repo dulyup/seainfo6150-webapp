@@ -1,0 +1,6 @@
+.image{
+    width: 80%;
+    border: 15px #d40000 solid;
+    border-radius: 50%;
+    box-shadow: 0 15px 10px grey;
+}
