@@ -2,10 +2,14 @@ import React from "react";
 
 import articles from './data/articles.json';
 import ArticleList from './ArticleList/ArticleList';
+import Header from './ArticleList/Header';
+import Footer from './ArticleList/Footer';
 
 const App = () => {
     return <div className="App">
+        <Header/>
         <ArticleList articles={articles}/>
+        <Footer/>
     </div>;
 };
 

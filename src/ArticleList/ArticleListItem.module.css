@@ -1,37 +1,33 @@
 .articleListItem {
     display: flex;
+    flex-direction: column;
     list-style: none;
-    margin-bottom: 50px;
     padding: 20px;
     border: 2px solid #d40000;
     background-image: linear-gradient(to right, #f6c7cf, #f3f3f3 20%);
-    border-radius: 15px;
-    box-shadow: 0 15px 10px grey;
 }
 
 .articleImage {
-    width: 30%;
+    width: 50%;
 }
 
 .articleContent {
-    width: 70%;
+    margin-top:30px;
 }
 
 .articleTitle {
-    font-size: 30px;
     font-weight: bold;
     color: #d40000;
     margin-top: 0;
 }
 
 section, footer {
-    font-size: 20px;
+    font-size: 17px;
     color: #4b4b4b;
 }
 
 .authorTime {
     padding-top: 20px;
-    text-align: right;
 }
 
 .time {
