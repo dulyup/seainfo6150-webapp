@@ -2,8 +2,7 @@
     background-color: #bb261a;
     color: white;
     display: flex;
-    flex-flow: row;
-    flex-direction: row;
+    flex-flow: row wrap;
     align-items: center;
     justify-content: space-between;
     margin: 15px 60px;
