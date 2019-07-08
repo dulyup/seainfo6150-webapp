@@ -33,3 +33,12 @@ section, footer {
 .time {
     font-weight: bold;
 }
+
+@media (max-width: 400px) {
+    section address{
+        font-size: 15px;
+    }
+    .articleTitle {
+        font-size: 18px;
+    }
+}
